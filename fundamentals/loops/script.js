@@ -26,4 +26,8 @@ The loop must ask for a number until either the visitor enters a number greater 
 
 Here we can assume that the visitor only inputs numbers. There’s no need to implement a special handling for a non-numeric input in this task. */
 
+for (let a = 0; a <= 100;) {
+  a = prompt("Give me a higher number than 100:", "")
+}
+
 
